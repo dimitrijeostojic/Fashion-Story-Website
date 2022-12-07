@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header ul li {
+    display: inline-block;
+}
+
+.navbar ul li {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.header {
+    text-align: center;
+    background-color: #f5f6fc;
+    margin-bottom: 80px;
+}
+
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.header img {
+    width: 130px;
+    margin-top: 36px;
+}
+
+.icons li {
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.banner-img {
+    margin: 80px 115px;
+    width: 60%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-title {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.banner-title h1 {
+    font-size: 55px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    line-height: 70px;
+    padding: 0px 10px 0 10px;
+}
+
+.fashion-trends {
+    padding: 100xp 0;
+}
+
+.fashion-box {
+    margin: 80px 0;
+}
+
+.title-style h1 {
+    padding: 40px 0;
+}
+
+
+.title-style {
+    margin: 0px auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+
+.title-style::after {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.title-style::before {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.trending-img {
+    margin-bottom: 15px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.trending-img img {
+    width: 100%;
+}
+
+.btn-buy {
+    width: 150px;
+    padding: 10px 0;
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    transition: .6s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.trending-img:hover .btn-buy {
+    transform: translate(-50%, 50%);
+    bottom: 50%;
+    opacity: 1;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    opacity: .5;
+    transition: .5s;
+}
+
+.trending-img:hover .overlay {
+    opacity: .5;
+    height: 100%;
+}
+
+.offer {
+    background-image: url(images/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin: 100px;
+}
+
+.offer img {
+    max-width: 300px;
+    height: 400px;
+    margin: 100px;
+    margin-bottom: 150px;
+    width: 55%;
+}
+
+.row {
+    margin: initial;
+}
+
+.offer-box {
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background-color: #ffffff8c;
+    margin-bottom: 20px;
+}
+
+.offer-box a {
+    width: 100px;
+    display: block;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.blog {
+    padding: 50px 0 50px 0;
+}
+
+.blog .text {
+    margin: 0px auto 80px;
+    padding-top: 35px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+.blog .text::after {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.blog .text::before {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.blog .text h1 {
+    text-align: center;
+}
+
+.blog .img img {
+    width: 100%;
+}
+
+.blog .img p {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.brands {
+    padding: 50px 0 100px 0;
+}
+
+.brands .text {
+    margin: 0px auto 80px;
+    padding-top: 35px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+.brands .text::after {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.brands .text::before {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.brands .text h1 {
+    text-align: center;
+}
+
+.brands .something2 {
+    border-radius: 50%;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.brands .something {
+    background-color: #f9fcff;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.brands img {
+    width: 100%;
+    text-align: center;
+    padding: 60px;
+}
+
+.brands p {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #f5f6fc;
+    position: relative;
+}
+
+.payment,
+.insta-img,
+.app-download {
+    margin: 50px 50px;
+}
+
+.payment img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.insta-img img {
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.app-download {
+    width: 300px;
+}
+
+.footer h5 {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.footer h5::before {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #4f74e8;
+    top: 80px;
+    position: absolute;
+}
+
+.footer-icons {
+    text-align: right;
+}
+
+.footer-icons .fa {
+    margin: 0px 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    .banner-img {
+        margin: 40px auto;
+        width: 80%;
+    }
+
+    .banner-title {
+        top: 150px;
+        left: 20%;
+        transform: translate(-50%);
+    }
+
+    .banner-title h1 {
+        font-size: 16px;
+        padding: 5px;
+        line-height: 20px;
+    }
+}
